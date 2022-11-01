@@ -14,10 +14,10 @@ namespace Lektionsövning
 
         public Customer(int id, string firstname, string lastname, string email)
         {
-            this.id = id;
-            this.firstname = firstname;
-            this.lastname = lastname;
-            this.email = email;
+            ID = id;
+            FirstName = firstname;
+            LastName = lastname;
+            Email = email;
         }
         public Customer()
         {
